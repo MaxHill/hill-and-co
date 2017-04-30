@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp",
-    "serve": "pushd ./dist; python -m SimpleHTTPServer; popd"
+    "serve": "pushd ./dist; python -m SimpleHTTPServer; popd",
     "deploy": "surge --project ./dist --domain hilloco.surge.sh"
   },
   "repository": {

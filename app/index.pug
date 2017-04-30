@@ -11,6 +11,7 @@ head
     meta(name="msapplication-config", content="/assets/favicons/browserconfig.xml")
     meta(name="theme-color", content="#ffffff")
 
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Slabo+27px")
     link(rel="stylesheet" href="main.css")
     meta(charset="utf-8")
 
@@ -22,12 +23,11 @@ head
     meta(property="og:image", content="")
 
 body
-    //include templates/head.pug
+    include templates/head.pug
 
     // Sections
-    div.sections
-        h1|Testing stuff
-    //include templates/foot.pug
+    // div.sections
+    // include templates/foot.pug
 
     script(src="index.js")
 

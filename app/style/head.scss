@@ -1,0 +1,44 @@
+.head {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #efefef;
+    
+    background: 
+        /* top, transparent red, faked with gradient */ 
+        linear-gradient(
+        rgba(0, 0, 0, 0.25), 
+        rgba(0, 0, 0, 0.75)
+        ),
+        /* bottom, image */
+        url(https://images.unsplash.com/photo-1470983850390-c2b2a8af209d?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    &__container {
+        width: 600px;
+        max-width: 95%;
+    }
+
+    &__hero {
+        font-weight: bold;
+        font-size: 8rem; 
+        line-height: 7.5rem; 
+        letter-spacing: 0;
+        margin-bottom: 3rem;
+        margin-top: 0;
+    }
+
+    &__text {
+        max-width: 400px;
+        a {
+            animation: hero-link-pulse .3s;
+            animation-timing-function: $easing;
+            animation-delay: 1s; 
+        }
+    }
+}

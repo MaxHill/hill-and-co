@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp",
     "serve": "pushd ./dist; python -m SimpleHTTPServer; popd",
-    "deploy": "surge --project ./dist --domain hilloco.surge.sh"
+    "deploy": "surge --project ./dist --domain www.hilloco.se"
   },
   "repository": {
     "type": "git",

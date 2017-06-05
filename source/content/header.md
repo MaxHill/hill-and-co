@@ -4,6 +4,6 @@ We design and develop clean, usable and beautiful websites and web services that
 Content strategy or copywriting? We know it, we do it and we are here.
 If you need web you're at the right place.
 
-Give us a call or send an email to <a class="link" href="mailto:contact@hilloco.se">contact@hilloco.se</a> and we know that the solution to your problem is near.
+Give us a call on <a class="link" href="tel:+46708255800">+46-708 255 800</a> or send an email to <a class="link" href="mailto:contact@hilloco.se">contact@hilloco.se</a> and we know that the solution to your problem is near.
 
 Let's talk!

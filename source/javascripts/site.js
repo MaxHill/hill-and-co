@@ -1,4 +1,5 @@
 import constants from './constants';
+import lazyImages from './lazyimages';
 
 // Wrap console log to show arrow functions work
 let log = (text) => {
@@ -13,21 +14,9 @@ if (ENV_DEVELOPMENT) {
 }
 
 // Lazyload background
-window.onload = function() {
+window.onload = () => {
     document.querySelectorAll('[lazy-bg]').forEach(element => {
-        lazyImage(element);
+        lazyImages.init(element);
     });
 };
 
-function lazyImage(element) {
-    var img = new Image();
-    img.onload = function() {
-        change_image();
-    }
-    img.src = element.getAttribute('lazy-bg');
-
-    function change_image() {
-        console.log(img.src, 'Image is loaded');
-        element.setAttribute("style", "background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)) , url('" + img.src + "');");
-    }
-}

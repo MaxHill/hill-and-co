@@ -4,7 +4,8 @@
   "description": "This is a static site template used by Max",
   "main": "javascripts/site.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bundle exec middleman build && surge --project ./build --domain hilloco.se"
   },
   "keywords": [
     "Static",

@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$white".
+Error: Undefined variable: "$dark-black".
         on line 13 of /Users/max/code/hill-and-co/source/stylesheets/base/global.scss
 
 8: html, body {
@@ -7,8 +7,9 @@ Error: Undefined variable: "$white".
 10: }
 11: 
 12: body {
-13:     color: $white;
-14: }
+13:     background: $dark-black;
+14:     color: $white;
+15: }
 
 Backtrace:
 /Users/max/code/hill-and-co/source/stylesheets/base/global.scss:13
@@ -150,4 +151,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 13 of /Users/max/code/hill-and-co/source/stylesheets/base/global.scss\A \A 8: html, body {\A 9:     height: 100%;\A 10: }\A 11: \A 12: body {\A 13:     color: $white;\A 14: }"; }
+  content: "Error: Undefined variable: \"$dark-black\".\A         on line 13 of /Users/max/code/hill-and-co/source/stylesheets/base/global.scss\A \A 8: html, body {\A 9:     height: 100%;\A 10: }\A 11: \A 12: body {\A 13:     background: $dark-black;\A 14:     color: $white;\A 15: }"; }

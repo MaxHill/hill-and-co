@@ -489,7 +489,8 @@ a.link {
   text-decoration: none;
   color: #252525;
   background: #fff;
-  padding: 0 .3rem;
+  padding: 0 .2rem;
+  margin: .1rem 0;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.3s cubic-bezier(0.45, 0.01, 0.51, 1);

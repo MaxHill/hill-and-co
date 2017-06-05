@@ -1,0 +1,25 @@
+.Menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (min-width: $break-medium) {
+        top: auto;
+        bottom: 1rem;
+    }
+
+    &__name {
+        color: $white;
+        margin-right: .5rem;
+        @media screen and (min-width: $break-small) {
+            margin-right: 1rem;
+        }
+    }
+
+    &__logo {
+        width: 2rem;
+    }
+}

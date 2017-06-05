@@ -1,0 +1,12 @@
+supportMail: max@hilloco.se
+companyName: Hill & Co
+
+og:
+  title: Hill & Co
+  url: http://hilloco.se
+  type: website
+  locale: sv_SE
+  description: Hill & Co is a web beuro in gothenburg
+  image: /images/og.jpg
+
+

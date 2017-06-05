@@ -1,0 +1,12 @@
+$black: #252525;
+$dark-black: #000;
+$white: #fff;
+
+//transitions
+$easing: cubic-bezier(.45,.01,.51,1);
+$transition: all .3s $easing;
+
+// Breakpoints
+$break-small: 600px;
+$break-medium: 800px;
+$break-medium: 1000px;

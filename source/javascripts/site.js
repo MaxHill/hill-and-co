@@ -2,9 +2,10 @@ import constants from './constants';
 import lazyImages from './lazyimages';
 
 // Wrap console log to show arrow functions work
-let log = (text) => {
+const log = (text) => {
     console.info(text);
 };
+
 
 // We have the possibility to have environment specific config
 if (ENV_DEVELOPMENT) {
@@ -15,7 +16,8 @@ if (ENV_DEVELOPMENT) {
 
 // Lazyload background
 window.onload = () => {
-    document.querySelectorAll('[lazy-bg]').forEach(element => {
+    let images = [].slice.call(document.querySelectorAll('[lazy-bg]'));
+    images.forEach(element => {
         lazyImages.init(element);
     });
 };

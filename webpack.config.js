@@ -1,5 +1,10 @@
 // webpack.config.js
 var webpack = require('webpack');
+var path = require('path');
+
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
+}
 
 var env = new webpack.DefinePlugin({
     ENV_DEVELOPMENT: JSON.stringify(JSON.parse(process.env.BUILD_DEVELOPMENT || false)),
@@ -8,7 +13,7 @@ var env = new webpack.DefinePlugin({
 
 module.exports = {
     entry: {
-        site: './source/javascripts/site.js'
+        site: ['./source/javascripts/site.js']
     },
 
     output: {
@@ -17,14 +22,16 @@ module.exports = {
     },
 
     module: {
-        rules: [{
-            test: /source\/javascripts\/.*\.js$/,
-            exclude: /node_modules|\.tmp|vendor/,
-            loader: "babel-loader",
-            query: {
-                presets: ['es2015', 'stage-0']
-            }
-        }]
+        loaders: [
+            { 
+                test: /\.js$/,
+                include: path.join(__dirname, 'source/javascript'),
+                loader: 'babel-loader',
+                query: {
+                    presets: ['es2015']
+                }
+            },
+        ],
     },
 
     plugins: [

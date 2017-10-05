@@ -131,22 +131,7 @@ Backtrace:
 /usr/local/lib/ruby/gems/2.4.0/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
 /usr/local/lib/ruby/gems/2.4.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
 /usr/local/bin/middleman:22:in `load'
-/usr/local/bin/middleman:22:in `<top (required)>'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/cli/exec.rb:74:in `load'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/cli/exec.rb:74:in `kernel_load'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/cli/exec.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/cli.rb:360:in `exec'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/vendor/thor/lib/thor.rb:369:in `dispatch'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/cli.rb:20:in `dispatch'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/vendor/thor/lib/thor/base.rb:444:in `start'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/cli.rb:10:in `start'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/exe/bundle:35:in `block in <top (required)>'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/lib/bundler/friendly_errors.rb:121:in `with_friendly_errors'
-/usr/local/lib/ruby/gems/2.4.0/gems/bundler-1.15.1/exe/bundle:27:in `<top (required)>'
-/usr/local/bin/bundle:22:in `load'
-/usr/local/bin/bundle:22:in `<main>'
+/usr/local/bin/middleman:22:in `<main>'
 */
 body:before {
   white-space: pre;
